@@ -29,7 +29,7 @@ jobs:
         context: .
         file: Dockerfile
         push: true
-        tags: ${{ secrets.AZURE_CR_USERNAME }}/myapp:${{ github.sha }}
+        tags: siliconacr9.azurecr.io/app1:${{ github.sha }}
         labels: type=image
 
     
